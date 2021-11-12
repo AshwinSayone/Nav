@@ -30,10 +30,14 @@ function tabNav() {
         name="About"
         component={About}
         options={{
-          tabBarLabel: 'Cart',
+          tabBarLabel: 'About',
           tabBarColor: '#1f65ff',
           tabBarIcon: ({color}) => (
-            <MaterialCommunityIcons name="account" color={color} size={25} />
+            <MaterialCommunityIcons
+              name="book-multiple"
+              color={color}
+              size={25}
+            />
           ),
         }}
       />
